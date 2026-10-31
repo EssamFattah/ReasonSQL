@@ -1,0 +1,15 @@
+# Minimum versions. After your first successful run, freeze the exact environment with
+#   bash scripts/freeze_env.sh      -> requirements.lock (commit it)
+# and reinstall from the lock file for reproducible results:  pip install -r requirements.lock
+# Every run also records exact package versions in its config.json / sql_eval.json.
+mlx>=0.26
+mlx-lm>=0.26
+transformers>=4.51
+datasets>=3.0
+huggingface_hub>=0.30
+sqlglot>=25
+numpy
+pyyaml
+tqdm
+matplotlib
+pytest

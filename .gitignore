@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/*
+!data/.gitkeep
+runs/*
+!runs/.gitkeep
+artifacts/
+*.safetensors
+*.tmp
+
+*.log
+.DS_Store

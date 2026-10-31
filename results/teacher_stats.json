@@ -1,0 +1,41 @@
+{
+  "funnel": {
+    "questions_started": 5,
+    "questions_finished": 5,
+    "teacher_ever_correct": 3,
+    "usable_verified": 3
+  },
+  "max_attempts": 3,
+  "max_example_tokens": 4096,
+  "attempts": 9,
+  "gold_query_errors": 0,
+  "pass_at": {
+    "pass@1": 0.6,
+    "pass@2": 0.6,
+    "pass@3": 0.6
+  },
+  "never_usable": 0.4,
+  "gain_from_resampling": 0.0,
+  "correct_but_unusable_attempts": {
+    "n": 0,
+    "truncated": 0,
+    "too_long": 0
+  },
+  "failed_attempt_categories": {
+    "wrong_values": 3,
+    "wrong_columns": 3
+  },
+  "failed_attempt_struct_diffs": {
+    "joins": 3
+  },
+  "truncation_rate": 0.0,
+  "avg_tokens_per_attempt": 614.7777777777778,
+  "avg_seconds_per_attempt": 33.72666666666666,
+  "total_generation_hours": 0.08431666666666668,
+  "usable_example_tokens": {
+    "p10": 689.0,
+    "median": 1013.0,
+    "p90": 1133.8,
+    "max": 1164
+  }
+}
